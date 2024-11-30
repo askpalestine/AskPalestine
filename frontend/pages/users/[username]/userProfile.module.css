@@ -1,0 +1,49 @@
+.userProfileContainer {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 2vh;
+  border: 3px solid #006233;
+}
+
+.userProfileBioContainer {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1vh;
+  margin-left: 2vh;
+}
+
+
+.userProfileButtonDescriptions {
+  text-align: center;
+  padding-bottom: 1vh;
+}
+
+.userProfileButton {
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  margin: 0.5em;
+  width: 70%;
+  align-self: center;
+}
+
+.answerInProfileContainer {
+  height: fit-content !important;
+  border: 2px solid #006233 !important;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin-bottom: 20px;
+  width: 100%;
+}

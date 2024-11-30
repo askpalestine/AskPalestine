@@ -1,0 +1,24 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content !important;
+    padding: 1vh;
+}
+
+.answersCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content !important;
+    border:none
+}
+
+.authContainer {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}

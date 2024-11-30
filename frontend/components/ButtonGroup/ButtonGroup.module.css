@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+
+.buttonGroupContainer {
+  border-radius: 10px;
+  background-color: #3A3A47;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.buttonGroupContainer:hover {
+  background-color: #41414F;
+}

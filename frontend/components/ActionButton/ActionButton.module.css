@@ -1,0 +1,182 @@
+.container {
+  padding: 0.5em;
+  background-color: transparent;
+  border-radius: 2em;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.deleteContainer {
+  padding: 0.625em;
+  color: rgb(200, 200, 200);
+  background-color: rgb(146, 84, 87);
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  width: 6em;
+}
+
+.deleteContainer:hover {
+  background-color: rgb(150, 75, 77);
+}
+
+.editContainer {
+  padding: 0.625em;
+  color: rgb(200, 200, 200);
+  background-color: #625e81;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  width: 6em;
+}
+
+.editContainer:hover {
+  background-color: #615994;
+}
+
+.viewContainer {
+  padding: 1em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 2em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif 
+}
+
+.viewContainer:hover {
+  background-color: #59945f;
+}
+.disabledViewContainer {
+  padding: 0.625em;
+  color: rgb(200, 200, 200);
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  font-size: 1em;
+  text-size-adjust: auto;
+  display: inline-block;
+  width: 6em;
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.errorText {
+  color: red;
+  margin: 5px;
+  font-size: 0.8em;
+}
+
+.logoutButton {
+  padding: 0.625em;
+  color: rgb(200, 200, 200);
+  background-color:#000000;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif 
+}
+
+.answeredButtonSelected {
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  margin: 0.5em;
+}
+
+.goToQAButton {
+  margin-top: 1vh;
+  padding: 20px !important;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  font-weight: 600;
+  text-size-adjust: auto;
+  font-family: 'Urbanist', sans-serif ;
+  width: 100%;
+  font-size: clamp(0px, 7vw, 40px);
+}
+
+.goToNextQButton {
+  margin-top: 16px;
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 2em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 0.5em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  width: 100%;
+  font-size: clamp(0px, 2vh, 40px)
+}
+
+.loginAndRegisterButton {
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  margin: 0.5em;
+  width: 70%;
+}
+.answeredButtonUnselected {
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  margin: 0.5em;
+}

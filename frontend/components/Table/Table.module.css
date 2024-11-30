@@ -1,0 +1,63 @@
+.container {
+  background-color: #3d3d4d7c;
+  padding: 1.5em;
+  border-radius: 12.5px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.wrapper {
+  text-align: center;
+  overflow: auto;
+  color: rgb(200, 200, 200);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 1em;
+  height: 0.75em;
+  z-index: 10;
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background-color: #2a2a35;
+}
+
+.wrapper::-webkit-scrollbar-corner {
+  background:#2a2a35;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  border: 0.25em solid rgba(0,0,0,0);
+  background-clip: padding-box;
+  background-color: #3c3c49;
+}
+
+
+.wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #3c3c49;
+}
+
+.table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  min-width: 100%;
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: #3A3A47;
+}
+
+.table > thead th {
+  background-color: rgb(54, 54, 67);
+  padding: 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table > tbody td {
+  padding: 1em;
+}

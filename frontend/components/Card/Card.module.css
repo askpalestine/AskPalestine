@@ -1,0 +1,15 @@
+.container {
+  background-color: #ffffff;
+  padding: 1.5em;
+  border-left: 5px solid #006233; /* Green stripe to represent the flag */
+
+  border-radius: 2em;
+  color:  #e0e0e0;
+  height: 5em;
+  min-width: 0;
+}
+
+.container p {
+   color: #000000;
+    word-wrap: break-word;
+}

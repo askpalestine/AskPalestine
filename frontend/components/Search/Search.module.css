@@ -1,0 +1,26 @@
+.container {
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 2em;
+  border-left: 5px solid #006233;
+  color:  #ffffff;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.container p {
+    word-wrap: break-word;
+    color:  #000000;
+}
+
+.inputRoot {
+  font-family: 'Urbanist', sans-serif !important;
+  color:  #000000 !important;
+  width: 100%;
+}
+
+.inputInput::placeholder {
+  color:  #000000 !important;
+  opacity: 1;
+}

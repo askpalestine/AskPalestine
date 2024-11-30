@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "ask-palestine-be"
+version = "0.1.0"
+description = "Ask palestine chat bot"
+authors = ["None"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+sqlalchemy = "^2.0.22"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+pydantic = "^2.4.2"
+black = "^23.10.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pre-commit = "^3.5.0"
+alembic = "^1.12.0"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.0"
+pyjwt = "^2.8.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi-mail = "^1.4.1"
+slowapi = "^0.1.8"
+limits = "^3.6.0"
+python-multipart = "^0.0.6"
+openai = "^1.14.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+
+
+[tool.isort]
+profile = "black"
+py_version = 311
+line_length = 79
+skip_glob  = ["*.pyx"]

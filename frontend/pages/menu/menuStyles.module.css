@@ -1,0 +1,50 @@
+.menuContainer {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 1vh;
+}
+
+.menuButton {
+  padding: 0.625em;
+  color: #ffffff;
+  background-color: #006233;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  text-size-adjust: auto;
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif ;
+  margin: 0.5em;
+  width: 70%;
+}
+
+.menuButtonDescriptions {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+.emailSubscriptionField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  color: #006233;
+  flex: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.submitButton {
+  background-color: #ffffff !important;
+  margin-top: auto;
+  font-size: 1.5em;
+  height: unset !important;
+  color: #006233;
+  border-radius: 12.5px !important;
+  border-color: #006233 !important;
+}

@@ -1,0 +1,15 @@
+.iconButton {
+    border: unset;
+    background: unset;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color:rgb(200, 200, 200);
+    border-radius: 50%;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.iconButton:hover {
+    background-color: rgba(200,200,200, 0.05);
+}
