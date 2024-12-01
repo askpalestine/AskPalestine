@@ -1,6 +1,6 @@
 # Ask-Palestine
 
-A chatbot allowing you to increase your knowledge surround the occupation of Palestine, and by extension increasing capatcity to help out.
+AskPalestine serves answers of prominent figures to Palestine FAQs
 
 ## Run instructions
 
